@@ -18,7 +18,7 @@ module Paginate
     end
 
     def last?
-      number > (collection.size.to_f / PER_PAGE).ciel
+      (collection.size.to_f / PER_PAGE).ceil <= number
     end
 
     def previous_param

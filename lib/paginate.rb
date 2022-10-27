@@ -1,3 +1,4 @@
+require "paginate/page"
 require "paginate/version"
 require "paginate/railtie"
 
