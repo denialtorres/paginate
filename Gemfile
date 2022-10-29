@@ -10,5 +10,10 @@ group :development do
   gem "puma"
 end
 
+group :test do
+  gem "capybara", git: 'https://github.com/teamcapybara/capybara', branch: "puma_master_changes"
+  gem "selenium-webdriver"
+end
+
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
