@@ -7,6 +7,7 @@ gem "sassc-rails", "~> 2.1"
 
 group :development do
   gem 'sqlite3'
+  gem "puma"
 end
 
 # To use a debugger
